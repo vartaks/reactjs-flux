@@ -43,3 +43,32 @@ npm WARN acorn-dynamic-import@4.0.0 requires a peer of acorn@^6.0.0 but none is 
 + gulp-concat@2.6.0
 + bootstrap@3.3.5
 added 7 packages in 16.884s
+
+D:\sourabh\repos\github\reactjs-flux>npm install --save gulp-eslint@0.15.0
+npm WARN acorn-dynamic-import@4.0.0 requires a peer of acorn@^6.0.0 but none is installed. You must install peer dependencies yourself.
+
++ gulp-eslint@0.15.0
+added 55 packages in 39.842s
+
+D:\sourabh\repos\github\reactjs-flux>gulp
+[21:54:50] Using gulpfile D:\sourabh\repos\github\reactjs-flux\gulpfile.js
+[21:54:50] Starting 'html'...
+[21:54:50] Finished 'html' after 25 ms
+[21:54:50] Starting 'js'...
+[21:54:50] Finished 'js' after 43 ms
+[21:54:50] Starting 'css'...
+[21:54:50] Finished 'css' after 13 ms
+[21:54:50] Starting 'lint'...
+[21:54:51] Starting 'connect'...
+[21:54:51] Finished 'connect' after 52 ms
+[21:54:51] Starting 'open'...
+[21:54:51] Finished 'open' after 4.82 ms
+[21:54:51] Starting 'watch'...
+[21:54:51] Finished 'watch' after 37 ms
+[21:54:51] Server started http://localhost:9005
+[21:54:51] LiveReload started on port 35729
+[21:54:51] Finished 'lint' after 487 ms
+[21:54:51] Starting 'default'...
+[21:54:51] Finished 'default' after 111 μs
+[21:54:51] Opening http://localhost:9005/ using the default OS app
+
