@@ -25,4 +25,14 @@ npm notice created a lockfile as package-lock.json. You should commit this file.
 + gulp-connect@2.2.0
 added 392 packages in 71.119s
 
+D:\sourabh\repos\github\reactjs-flux>npm install --save browserify@11.0.1 reactify@1.1.1 vinyl-source-stream@1.1.0
+npm WARN deprecated react-tools@0.13.3: react-tools is deprecated. For more information, visit https://fb.me/react-tools-deprecated
+npm WARN notice [SECURITY] shell-quote has the following vulnerability: 1 critical. Go here for more details: https://nodesecurity.io/advisories?search=shell-quote&version=0.0.1 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN acorn-dynamic-import@4.0.0 requires a peer of acorn@^6.0.0 but none is installed. You must install peer dependencies yourself.
+
++ vinyl-source-stream@1.1.0
++ reactify@1.1.1
++ browserify@11.0.1
+added 151 packages in 50.546s
+
 D:\sourabh\repos\github\reactjs-flux>
