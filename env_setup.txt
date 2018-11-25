@@ -35,4 +35,11 @@ npm WARN acorn-dynamic-import@4.0.0 requires a peer of acorn@^6.0.0 but none is 
 + browserify@11.0.1
 added 151 packages in 50.546s
 
-D:\sourabh\repos\github\reactjs-flux>
+D:\sourabh\repos\github\reactjs-flux>npm install --save bootstrap@3.3.5 jquery@2.1.4 gulp-concat@2.6.0
+npm WARN notice [SECURITY] jquery has the following vulnerability: 1 high. Go here for more details: https://nodesecurity.io/advisories?search=jquery&version=2.1.4 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN acorn-dynamic-import@4.0.0 requires a peer of acorn@^6.0.0 but none is installed. You must install peer dependencies yourself.
+
++ jquery@2.1.4
++ gulp-concat@2.6.0
++ bootstrap@3.3.5
+added 7 packages in 16.884s
