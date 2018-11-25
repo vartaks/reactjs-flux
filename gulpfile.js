@@ -15,6 +15,7 @@ var config = {
     paths: {
         html: "./src/*.html",
         js: "./src/**/*.js*",
+        images: "./src/images/*",
         css: [
             "node_modules/bootstrap/dist/css/bootstrap.min.css",
             "node_modules/bootstrap/dist/css/bootstrap-theme.min.css"
@@ -22,7 +23,8 @@ var config = {
         dist: "./dist",
         mainJs: "./src/main.js"
     }
-}
+};
+
 // Start a local development server
 gulp.task("connect", function () {
     connect.server({
@@ -66,6 +68,17 @@ gulp.task("css", function () {
         .pipe(gulp.dest(config.paths.dist + "/css"));
 });
 
+// Migrate images to dist folder
+gulp.task("images", function () {
+    gulp.src(config.paths.images)
+        .pipe(gulp.dest(config.paths.dist + "/images"))
+        .pipe(connect.reload());
+
+    // publish favicon
+    gulp.src("./src/favicon.ico")
+        .pipe(gulp.dest(config.paths.dist));
+});
+
 // Lint (validate) Javascript and JSX files
 gulp.task("lint", function () {
     return gulp.src(config.paths.js)
@@ -82,4 +95,4 @@ gulp.task("watch", function () {
 });
 
 // Default task
-gulp.task("default", ["html", "js", "css", "lint", "open", "watch"]);
+gulp.task("default", ["html", "js", "css", "images", "lint", "open", "watch"]);
