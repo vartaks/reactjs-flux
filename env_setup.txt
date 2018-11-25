@@ -72,3 +72,10 @@ D:\sourabh\repos\github\reactjs-flux>gulp
 [21:54:51] Finished 'default' after 111 μs
 [21:54:51] Opening http://localhost:9005/ using the default OS app
 
+D:\sourabh\repos\github\reactjs-flux>npm install --save react@0.13.3 react-router@0.13.3 flux@2.0.3
+npm WARN acorn-dynamic-import@4.0.0 requires a peer of acorn@^6.0.0 but none is installed. You must install peer dependencies yourself.
+
++ flux@2.0.3
++ react@0.13.3
++ react-router@0.13.3
+added 11 packages in 21.423s
