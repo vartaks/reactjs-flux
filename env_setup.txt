@@ -1,0 +1,28 @@
+D:\sourabh\repos\github\reactjs-flux>npm install --save gulp@3.9.0 gulp-connect@2.2.0 gulp-open@1.0.0
+npm WARN deprecated gulp-util@3.0.8: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+npm WARN deprecated graceful-fs@3.0.11: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated graceful-fs@1.2.3: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+npm WARN deprecated gulp-util@2.2.20: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+npm WARN deprecated connect@2.17.3: connect 2.x series is deprecated
+npm WARN notice [SECURITY] qs has the following vulnerabilities: 2 high. Go here for more details: https://nodesecurity.io/advisories?search=qs&version=0.6.6 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] debug has the following vulnerability: 1 low. Go here for more details: https://nodesecurity.io/advisories?search=debug&version=0.8.1 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN deprecated scmp@0.0.3: scmp v2 uses improved core crypto comparison since Node v6.6.0
+npm WARN notice [SECURITY] debug has the following vulnerability: 1 low. Go here for more details: https://nodesecurity.io/advisories?search=debug&version=0.8.0 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] cookie-signature has the following vulnerability: 1 moderate. Go here for more details: https://nodesecurity.io/advisories?search=cookie-signature&version=1.0.3 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] open has the following vulnerability: 1 critical. Go here for more details: https://nodesecurity.io/advisories?search=open&version=0.0.5 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] serve-static has the following vulnerability: 1 low. Go here for more details: https://nodesecurity.io/advisories?search=serve-static&version=1.1.0 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] serve-index has the following vulnerability: 1 moderate. Go here for more details: https://nodesecurity.io/advisories?search=serve-index&version=1.0.3 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] send has the following vulnerabilities: 2 low. Go here for more details: https://nodesecurity.io/advisories?search=send&version=0.3.0 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] negotiator has the following vulnerability: 1 high. Go here for more details: https://nodesecurity.io/advisories?search=negotiator&version=0.4.3 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] mime has the following vulnerability: 1 moderate. Go here for more details: https://nodesecurity.io/advisories?search=mime&version=1.2.11 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] method-override has the following vulnerability: 1 high. Go here for more details: https://nodesecurity.io/advisories?search=method-override&version=1.0.2 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN notice [SECURITY] fresh has the following vulnerability: 1 high. Go here for more details: https://nodesecurity.io/advisories?search=fresh&version=0.2.2 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm notice created a lockfile as package-lock.json. You should commit this file.
++ gulp-open@1.0.0
++ gulp@3.9.0
++ gulp-connect@2.2.0
+added 392 packages in 71.119s
+
+D:\sourabh\repos\github\reactjs-flux>

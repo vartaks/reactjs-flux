@@ -1,0 +1,28 @@
+{
+  "name": "reactjs-flux",
+  "version": "1.0.0",
+  "description": "Pluralsight Admin app using ReactJS and Flux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vartaks/reactjs-flux.git"
+  },
+  "keywords": [
+    "reactjs",
+    "flux"
+  ],
+  "author": "Sourabh Vartak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vartaks/reactjs-flux/issues"
+  },
+  "homepage": "https://github.com/vartaks/reactjs-flux#readme",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-open": "^1.0.0"
+  }
+}
