@@ -79,3 +79,10 @@ npm WARN acorn-dynamic-import@4.0.0 requires a peer of acorn@^6.0.0 but none is 
 + react@0.13.3
 + react-router@0.13.3
 added 11 packages in 21.423s
+
+D:\sourabh\repos\github\reactjs-flux>npm install --save lodash@3.10.0
+npm WARN notice [SECURITY] lodash has the following vulnerability: 1 low. Go here for more details: https://nodesecurity.io/advisories?search=lodash&version=3.10.0 - Run `npm i npm@latest -g` to upgrade your npm version, and then `npm audit` to get more info.
+npm WARN acorn-dynamic-import@4.0.0 requires a peer of acorn@^6.0.0 but none is installed. You must install peer dependencies yourself.
+
++ lodash@3.10.0
+added 1 package and updated 1 package in 18.646s
