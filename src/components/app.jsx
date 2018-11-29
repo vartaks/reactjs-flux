@@ -1,0 +1,21 @@
+/*eslint-disable strict */ // Disabled check because of jQuery global variable
+
+var React = require("react");
+var Header = require("./common/header.jsx");
+var RouteHandler = require("react-router").RouteHandler;
+$ = jQuery = require("jquery");
+
+var App = React.createClass({
+    render: function() {
+        return (
+            <div>
+                <Header />
+                <div className="container-fluid">
+                    <RouteHandler />
+                </div>
+            </div>
+        );
+    }
+});
+
+module.exports = App;
