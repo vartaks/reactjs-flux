@@ -6,6 +6,7 @@ var Router = require("react-router");
 var DefaultRoute = Router.DefaultRoute;
 var Route = Router.Route;
 var NotFoundRoute = Router.NotFoundRoute;
+var Redirect = Router.Redirect;
 
 var routes = (
     <Route name="app" path="/" 
@@ -18,6 +19,9 @@ var routes = (
             handler={require("./components/about/aboutPage.jsx")} />
         <NotFoundRoute 
             handler={require("./components/notFoundPage.jsx")} />
+        <Redirect from="about-us" to="about" />
+        <Redirect from="awthurs" to="authors" />
+        <Redirect from="about/*" to="about" />
     </Route>
 );
 
