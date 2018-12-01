@@ -17,6 +17,8 @@ var routes = (
             handler={require("./components/authors/authorPage.jsx")} />
         <Route name="addAuthor" path="author"
             handler={require("./components/authors/manageAuthorPage.jsx")} />
+        <Route name="manageAuthor" path="author/:id"
+            handler={require("./components/authors/manageAuthorPage.jsx")} />
         <Route name="about"
             handler={require("./components/about/aboutPage.jsx")} />
         <NotFoundRoute 
