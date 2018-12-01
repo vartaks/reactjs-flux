@@ -8,13 +8,26 @@ var AuthorStore = require("../../stores/authorStore.js");
 var AuthorList = require("./authorList.jsx");
 
 var AuthorPage = React.createClass({
-    getInitialState: function() {
+    getInitialState: function () {
         return {
             authors: AuthorStore.getAllAuthors()
         };
     },
 
-    render: function() {
+    componentWillMount: function () {
+        AuthorStore.addChangeListener(this._onChange);
+    },
+
+    //Clean up when this component is unmounted
+    componentWillUnmount: function () {
+        AuthorStore.removeChangeListener(this._onChange);
+    },
+
+    _onChange: function () {
+        this.setState({ authors: AuthorStore.getAllAuthors() });
+    },
+
+    render: function () {
         return (
             <div>
                 <h1>Authors</h1>
