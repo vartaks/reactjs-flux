@@ -92,3 +92,9 @@ npm WARN acorn-dynamic-import@4.0.0 requires a peer of acorn@^6.0.0 but none is 
 
 + toastr@2.1.0
 added 1 package in 22.13s
+
+D:\sourabh\repos\github\reactjs-flux>npm install --save object-assign@3.0.0
+npm WARN acorn-dynamic-import@4.0.0 requires a peer of acorn@^6.0.0 but none is installed. You must install peer dependencies yourself.
+
++ object-assign@3.0.0
+updated 1 package in 17.785s
